@@ -78,7 +78,7 @@ function errorCallback(res) {
 // TODO Handle this URL with appropriate Database interaction.
 
 
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 3000;
 app.listen(port, function () {
   console.log('JSON Server is running on ' + port);
 });
